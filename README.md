@@ -18,4 +18,27 @@ Perform the following steps to run the system locally:
 **Weights available on-demand due to few contraints set by GitHub**
 
 ## Built With
-* <a href="https://www.google.com">Google</a>
+* <a href="https://github.com/AlexeyAB/darknet">Darknet</a>
+* <a href="https://keras.io/">Keras</a>
+* <a href="https://github.com/ManivannanMurugavel/YOLO-Annotation-Tool">YOLO Annotation Tool</a>
+
+## Process Explanation
+<img src="https://raw.githubusercontent.com/PhantomKnight1947/images1/master/block_diagram.png">
+
+It consists of 3 parts:
+- **Leaf Detector**: Detects leaf in image and crops it
+- **Leaf Classifier**: Classifies the leaf into 1 of 8 classes
+- **Disease Classifier**: Checks for disease in the leaf and returns the disease name, if there exists any
+
+### Leaf Detector
+<p align="Center">
+  <img width=240 height=320 src="https://raw.githubusercontent.com/PhantomKnight1947/images1/master/leaf_before_yolo.jpeg?token=AHSQE2SQRXRRLWTXOSNRJBC5IV47W">
+  &nbsp&nbsp&nbsp&nbsp
+   <img width=240 height=320 src="https://raw.githubusercontent.com/PhantomKnight1947/images1/master/leaf_after_yolo.jpeg?token=AHSQE2SFM5ROP2FP4PN2KXK5IV6CW">
+</p>
+<p align="center">Before & After</p>
+
+### Leaf and Disease Classifiers
+<p align="Center">
+  <img src="https://raw.githubusercontent.com/PhantomKnight1947/images1/master/Flow%20diagram.png?token=AHSQE2TYDJ4AZDLCPVD4MDC5IV636">
+</p>
