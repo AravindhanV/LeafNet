@@ -23,7 +23,7 @@ Perform the following steps to run the system locally:
 * <a href="https://github.com/ManivannanMurugavel/YOLO-Annotation-Tool">YOLO Annotation Tool</a>
 
 ## Process Explanation
-<img src="https://raw.githubusercontent.com/AravindhanV/images1/master/block_diagram.png?token=AHSQE2SEFF5BNU5BMMLFRUS5IWBI4">
+<img src="https://github.com/AravindhanV/images1/raw/master/block_diagram.png">
 
 It consists of 3 parts:
 - **Leaf Detector**: Detects leaf in image and crops it
@@ -32,13 +32,18 @@ It consists of 3 parts:
 
 ### Leaf Detector
 <p align="Center">
-  <img width=240 height=320 src="https://raw.githubusercontent.com/AravindhanV/images1/master/leaf_before_yolo.jpeg?token=AHSQE2W2CIAQUOTK6QKKIBK5IWBKG">
+  <img width=240 height=320 src="https://github.com/AravindhanV/images1/raw/master/leaf_before_yolo.jpeg">
   &nbsp&nbsp&nbsp&nbsp
-   <img width=240 height=320 src="https://raw.githubusercontent.com/AravindhanV/images1/master/leaf_after_yolo.jpeg?token=AHSQE2W4CPCBPMWXW5LRVB25IWBLO">
+   <img width=240 height=320 src="https://github.com/AravindhanV/images1/raw/master/leaf_after_yolo.jpeg">
 </p>
 <p align="center">Before & After</p>
 
-### Leaf and Disease Classifiers
+### Leaf Classifier
 <p align="Center">
-  <img src="https://raw.githubusercontent.com/AravindhanV/images1/master/Flow%20diagram.png?token=AHSQE2RUQJPS3US37AFGX4K5IWBHY">
+  <img src="https://github.com/AravindhanV/images1/raw/master/Flow%20diagram.png">
+</p>
+
+### Disease Classifier
+<p align="Center">
+  <img src="https://github.com/AravindhanV/images1/raw/master/subClasses.png">
 </p>
